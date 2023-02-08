@@ -4,8 +4,6 @@ import { useEffect } from "react";
 const Problem2 = () => {
   const [contacts, setContacts] = useState([]);
   const [usContacts, setUsContacts] = useState([]);
-  const [showModal, setShowModal] = useState(false);
-  const [selectedContact, setSelectedContact] = useState({});
   const [data, setData] = useState([]);
 
   useEffect(() => {
